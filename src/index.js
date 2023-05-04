@@ -44,6 +44,10 @@ client.on("interactionCreate", (interaction) => {
   if (interaction.commandName === "ping") {
     interaction.reply("Pong!");
   }
+
+  if (interaction.commandName === "twitter") {
+    interaction.reply("https://twitter.com/causadev");
+  }
 });
 
 
